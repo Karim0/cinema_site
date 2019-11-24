@@ -1,0 +1,28 @@
+#top_nav {
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.checked {
+    color: orange;
+}
+
+.rating {
+    padding: 0 8px 8px 8px;
+    font-size: 14pt;
+}
+
+.rating-item {
+    margin-top: 4px;
+    height: 20px;
+}
+
+.desc {
+    padding-left: 16px;
+    margin-bottom: 0;
+}
+
+.h-center{
+    align-self: center;
+}
