@@ -29,6 +29,7 @@ public class MainPageController {
     }
 
     @GetMapping("")
+
     public ModelAndView getMainPage(@AuthenticationPrincipal UserEntity user) {
         Map<String, Object> root = new HashMap<>();
         List<MoviesEntity> movies = moviesRepository.findAll();

@@ -51,13 +51,11 @@ public class MovieController {
             String format = DateTimeFormatter.ofPattern("HH:mm").format(LocalDateTime.now());
             int curTime = Integer.parseInt(format.split(":")[0]) * 60 +
                     Integer.parseInt(format.split(":")[1]);
-            System.out.println(curTime);
             for (int i = schedules.size() - 1; i >= 0; i--) {
                 int time = Integer.parseInt(schedules.get(i).getTime().split(":")[0]) * 60 +
                         Integer.parseInt(schedules.get(i).getTime().split(":")[1]);
                 if (time < curTime) {
                     schedules.remove(i);
-                    System.out.println(time);
                 }
             }
         } else {
