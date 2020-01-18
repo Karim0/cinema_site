@@ -26,5 +26,4 @@ Using swagger we can easy send requests on the backend.
 You can read more on this <a href="https://swagger.io/tools/swagger-ui/">website</a>.
 
 ###Screen shots
-<img src="img/Cinema 1.png" alt="" style="width: 100%">
-<img src="img/Cinema%201.png" alt="" style="width: 100%"/>
+<img src="https://github.com/Karim0/cinema_site/tree/master/src/main/resources/static/img/Cinema%201.png" alt="" style="width: 100%"/>
